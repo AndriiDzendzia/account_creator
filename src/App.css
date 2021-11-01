@@ -28,11 +28,31 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-add-account-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.App-add-account-form input {
+  width: 100%;
+  font-size: 25px;
+  background-color: #161c28;
+  color: #a7b9dd;
+  border: 2px solid gray;
+}
+
+.App-header button {
+  margin-top: 10px;
+  font-size: 25px;
+  background-color: #161c28;
+  color: #a7b9dd;
+  border: 2px solid gray;
+}
+.App-header button:active {
+  margin-top: 10px;
+  font-size: 25px;
+  background-color: #182847;
+  color: #8fb3fa;
+  border: 2px solid gray;
 }

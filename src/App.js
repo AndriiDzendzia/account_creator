@@ -9,7 +9,7 @@ function App() {
     auth:
     {
       clientId: "82a7531e-1ee4-4073-b64c-81d9d11e6bf0",
-      redirectUri: "https://car-account-creator-front.azurewebsites.net", 
+      redirectUri: "https://wonderful-rock-01558e903.azurestaticapps.net/", 
       authority: "https://login.microsoftonline.com/1440b6da-86d7-42c3-b09a-d06191de2220"
     }});
 

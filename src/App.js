@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import AccountCreateForm from './components/AccountCreateForm';
 import Token from './components/Token';

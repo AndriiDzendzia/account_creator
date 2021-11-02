@@ -12,6 +12,7 @@ const putUserData = async (user) => {
         body: JSON.stringify(user)
     });
     console.log(responce);
+    return await responce.json();
 };
 
 export default putUserData;
